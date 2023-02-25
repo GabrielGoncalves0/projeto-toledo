@@ -1,0 +1,42 @@
+/* Cor dos Imputs*/
+
+.form-group .col-sm-10.sucess input {
+    border: 1px solid rgb(131, 196, 34);
+}
+
+.form-group .col-sm-10.sucess textarea {
+    border: 1px solid rgb(131, 196, 34);
+}
+
+.form-group .col-sm-10.error input {
+    border: 1px solid red;
+}
+
+.form-group .col-sm-10.error textarea {
+    border: 1px solid red;
+}
+
+.form-group .col-sm-10.error .preencher {
+    visibility: visible;
+    font-size: 12px;
+    color: red;
+}
+
+.form-group.error .preencher{
+    color: #DB5A5A;
+    visibility: visible;
+}
+
+.form-group .preencher{
+    display: block;
+    visibility: hidden;
+    font-size: 5px;
+}
+
+.form-group.row {
+    margin-top: 20px;
+}
+
+.form-group small {
+    display: block;
+}
